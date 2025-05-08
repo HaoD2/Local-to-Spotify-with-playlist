@@ -1,3 +1,3 @@
 ignore fileRead plss
 
-just run spotify python and change ur API too !!!
+just run spotify.py and change ur API too !!!
