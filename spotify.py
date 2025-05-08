@@ -4,7 +4,7 @@ from spotipy.oauth2 import SpotifyOAuth
 # Spotify Credentials
 SPOTIPY_CLIENT_ID = "YOUR CLIENT ID"
 SPOTIPY_CLIENT_SECRET = "YOUR SECRET ID"
-SPOTIPY_REDIRECT_URI = "http://localhost:11/callback"
+SPOTIPY_REDIRECT_URI = "YOUR URL CALLBACK"
 
 # Inisialisasi autentikasi Spotify
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
@@ -76,10 +76,17 @@ def add_tracks_by_name(track_names):
 
 
 def main():
-    file_path = "E:/Project/Autoplaylist/playlist.txt"
+    file_path = "YOUR FILEPATH NAME with TXT Files"
     track_names = read_playlist_file(file_path)
     add_tracks_by_name(track_names)
 
 
 if __name__ == "__main__":
     main()
+
+
+
+#example for TXT format
+
+#Running with the Wild Things - Against The Current
+#Dreaming Alone - Against The Current ft Taka from ONE OK ROCK
